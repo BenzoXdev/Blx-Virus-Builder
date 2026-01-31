@@ -6,13 +6,13 @@
 
 > **Outil Virus Builder de BLX** — Tout ce dont le builder a besoin est dans ce dossier.
 
-[![GitHub](https://img.shields.io/badge/GitHub-BenzoXdev%2FBlx--Virus--Builder-181717?style=flat-square&logo=github)](https://github.com/BenzoXdev/Blx-Virus-Builder)
+[![GitHub](https://img.shields.io/badge/GitHub-BenzoXdev%2FBlx--Virus--Builder-181717?style=flat-square&logo=github)](https://github.com/BenzoXdev/Blx-Virus-Builder-Virus-Builder)
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/Usage-Educational%20Only-red?style=flat-square)]()
 
 | Lien | Description |
 |------|-------------|
-| **Projet** | [Blx-Virus-Builder](https://github.com/BenzoXdev/Blx-Virus-Builder) |
+| **Projet** | [Blx-Virus-Builder](https://github.com/BenzoXdev/Blx-Virus-Builder-Virus-Builder) |
 | **Auteur** | [BenzoXdev](https://github.com/BenzoXdev) |
 
 ---
@@ -119,7 +119,7 @@ L'interface offre des onglets pour les options **Stealer** et **Malware**, un ch
 
 ```bash
 # 1. Cloner le dépôt
-git clone https://github.com/BenzoXdev/Blx-Virus-Builder.git
+git clone https://github.com/BenzoXdev/Blx-Virus-Builder-Virus-Builder.git
 cd Blx-Virus-Builder
 
 # 2. Installer les dépendances
@@ -408,6 +408,6 @@ pip install -r requirements.txt
   <strong>BLX Virus Builder</strong> — Usage éducatif uniquement
 </p>
 <p align="center">
-  <a href="https://github.com/BenzoXdev/Blx-Virus-Builder">GitHub</a> •
+  <a href="https://github.com/BenzoXdev/Blx-Virus-Builder-Virus-Builder">GitHub</a> •
   <a href="https://github.com/BenzoXdev">BenzoXdev</a>
 </p>

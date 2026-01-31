@@ -230,7 +230,7 @@ try:
 
     Slow(virus_banner)
     
-    title_frame = ctk.CTkFrame(builder, width=780, height=198, fg_color=colors["background"]) 
+    title_frame = ctk.CTkFrame(builder, width=780, height=220, fg_color=colors["background"]) 
     title_frame.grid(row=1, column=0, sticky="w", pady=(10, 0), padx=(10, 0))
     title_frame.grid_propagate(False)
     title_frame.grid_columnconfigure(0, weight=1)
@@ -241,19 +241,18 @@ try:
     text = ctk.CTkLabel(title_frame, text="The builder only creates viruses that work under Windows.", font=ctk.CTkFont(family="Helvetica", size=13), text_color=colors["red"])
     text.grid(row=2, pady=0, columnspan=3, sticky="we")
 
-    disclaimer_label = ctk.CTkLabel(title_frame, text="Usage \u00e9ducatif / recherche cybers\u00e9curit\u00e9 uniquement. L'auteur d\u00e9cline toute responsabilit\u00e9 quant \u00e0 l'usage fait de cet outil.", font=ctk.CTkFont(family="Helvetica", size=10), text_color=colors["dark_gray"])
+    disclaimer_label = ctk.CTkLabel(title_frame, text="Usage \u00e9ducatif / recherche cybers\u00e9curit\u00e9 uniquement. L'auteur d\u00e9cline toute responsabilit\u00e9 quant \u00e0 l'usage fait de cet outil.", font=ctk.CTkFont(family="Helvetica", size=10), text_color=colors["white"])
     disclaimer_label.grid(row=3, pady=(2, 0), columnspan=3, sticky="we")
 
     url_display = github_tool.replace("https://", "").replace("http://", "")
-    url = ctk.CTkLabel(title_frame, text=url_display, font=ctk.CTkFont(family="Helvetica", size=15), text_color=colors['white'], cursor="hand2")
-    url.grid(row=4, pady=(3, 10), columnspan=3, sticky="we")
-    url.bind("<Button-1>", lambda e: webbrowser.open(github_tool))
+    url_btn = ctk.CTkButton(title_frame, text=url_display, font=ctk.CTkFont(family="Helvetica", size=13), fg_color="transparent", hover_color=colors["gray"], text_color=colors["white"], cursor="hand2", height=24, command=lambda: webbrowser.open(github_tool))
+    url_btn.grid(row=4, pady=(3, 5), columnspan=3, sticky="we")
 
     webhook_url = ctk.CTkEntry(title_frame, height=45, width=350, corner_radius=5, font=ctk.CTkFont(family="Helvetica", size=15), justify="center", border_color=colors["red"], fg_color=colors["dark_gray"], border_width=2, placeholder_text="https://discord.com/api/webhooks/...", text_color=colors['white'])
-    webhook_url.grid(row=4, column=0, padx=(150, 5), pady=10, sticky="we")
+    webhook_url.grid(row=5, column=0, padx=(150, 5), pady=10, sticky="we")
 
     test_webhook = ctk.CTkButton(title_frame, text="Test Webhook", command=TestWebhook, height=45, corner_radius=5, fg_color=colors["red"], hover_color=colors["dark_red"], font=ctk.CTkFont(family="Helvetica", size=14))
-    test_webhook.grid(row=4, column=1, padx=(5, 150), pady=10, sticky="we")
+    test_webhook.grid(row=5, column=1, padx=(5, 150), pady=10, sticky="we")
 
     options_stealer_frame = ctk.CTkFrame(builder, width=720, height=209, fg_color=colors["dark_gray"]) 
     options_stealer_frame.grid(row=2, column=0, sticky="w", pady=(10, 0), padx=(40, 0))
