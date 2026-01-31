@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Img/blxbanner.png" alt="BLX Icon" width="80" height="80">
+  <img src="Img/blxbanner.png">
 </p>
 
 # BLX - Virus Builder
