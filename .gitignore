@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Fichiers sensibles / sorties
+1-Output/VirusBuilder/*.exe
+1-Output/VirusBuilder/*.blx
+BLX_ransomware_keys.json
+**/BLX_ransomware_keys.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+Desktop.ini
+*.log
